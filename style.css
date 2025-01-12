@@ -241,12 +241,19 @@
     margin-left: 24px;
     width: 240px;
     height: 128px;
-    border: 1px solid #006A50;
     background-color: #ffff;
     border-radius: 16px;
-    background-color: #ffff;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
+
+.box-text:hover{
+   
+    border: 1px solid #006A50;
+    background-color: #daf48f;
+     
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
 .box-h1{
     font-family: "Fira Sans", serif;
     font-weight: 700;
