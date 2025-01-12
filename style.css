@@ -1,0 +1,327 @@
+/* Global CSS */
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+     
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+     
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+     
+  }
+
+.body{
+    background-color: rgba(241, 241, 243, 1);
+    width: 1280px;
+    height: 765px;
+}
+
+.all-title{
+    font-size: 40px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.all-font{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+
+.btn{
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(57, 235, 175);
+    color: #0E0E0E;
+    border: 1px solid #000;
+    font-weight: 600;
+}
+
+/* Banner Section */
+
+.banner{
+    padding: 80px 90px;
+    border: none;
+    margin: 120px 120px 59px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+}
+.banner_section{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+     
+}
+
+.banner-conten{
+    padding: 0px 117px;
+     
+}
+
+.banner_para{
+    font-size: 24px;
+    color:rgba(14, 14, 14, 0.5);
+    margin-bottom: 10px;
+}
+
+.banner_title{
+    font-size: 56px;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+.banner_img img{
+   position: left;
+}
+
+/* Vision Section */
+.vision{
+    margin: 80px 120px;
+}
+.vision-card{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.card{
+    border:none;
+    width: 410px;
+    height: 274px;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.card-title{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.card-para{
+    margin-bottom: 24px;
+
+}
+
+.vision-btn{
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    color: #ffff ;
+    border: none;
+    margin-bottom: 32px;
+}
+
+.vision-btn:hover{
+    background-color: rgb(57, 235, 175);
+    color: #0E0E0E;
+    border: 1px solid #000;
+    font-weight: 600;
+}
+
+/* yunus section */
+.yunus{
+    width: 1263px;
+    height: 256px;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 120px 80px 120px;
+   
+}  
+.yunus-content{
+    background-image:url(B11A1--assignment-1/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 25px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 40px 24px 12px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.yunus-h5{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin-bottom: 0px;
+}
+/* Recent News */
+.news-content{
+    margin: 80px 120px 32px 120px;
+    border: none;
+}
+
+.aljazeera{
+    display: flex;
+    margin: 32px 120px 24px 120px;
+    gap: 0px;
+    border: none;
+    padding: 48px;
+    border-radius: 24px;
+    background-color: #ffff;
+}
+.news-img img{
+    border-radius: 32px;
+
+}
+.news-satellite{
+    margin-left: 32px;
+}
+.news-btn{
+    color: #ffff;
+    margin-top: 20px;
+    background-color: #006A50;
+    padding: 13px 26px;
+    border-radius: 8px;
+    border: none;
+}
+
+.news-btn:hover{
+    background-color: rgb(57, 235, 175);
+    color: #0E0E0E;
+    border: 1px solid #000;
+    font-weight: 600;
+}
+
+.news-h2{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8); 
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+.tv{
+    margin-bottom: 12px;
+}
+
+/* Donate Section */
+
+.donate{
+    width: 1280px;
+    height: 500px;
+    margin: 80px 120px 32px 120px;
+}
+
+.box{
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px 104px 32px 104px;
+}
+
+.box-text{
+    margin-left: 24px;
+    width: 240px;
+    height: 128px;
+    border: 1px solid #006A50;
+    background-color: #ffff;
+    border-radius: 16px;
+    background-color: #ffff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.box-h1{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.text-donate{
+    display: block;
+    width: 920px;
+    height: 20px;
+    padding: 20px 40px;
+    box-shadow: 0px 0px 1px 0px rgba(14, 14, 14, 0.15);
+    border: none;
+    margin-top: 32px;
+    margin: 32px 110px 32px 150px;
+}
+.text-button .donate-btn{
+   
+    margin-top: 0px;
+    margin-left: 570px;
+}
+
+/* Subscribe Section */
+
+.sub {
+    width: 1280px;
+    height: 395px;
+    border: none;
+    margin: 80px 160px 80px 160px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    
+    
+}
+
+.subscribe{
+    padding: 80px 100px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.btn-input{
+    align-items: center;
+    justify-content: center;
+}
+input[type=email]{
+    width: 600px;
+    /* height: 55px; */
+    padding: 17px 40px;
+    border-radius: 8px 0px 0px 8px;
+    gap: 0px;
+    border: none;
+}
+input[placeholder]{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.sub-btn{
+    border-radius: 0px 8px 8px 0px;
+    margin-left: -4px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 16px 34px;
+    border: none;
+    background-color: #006A50;
+    color: #ffff;
+}
+
+.sub-btn:hover{
+    background-color: rgb(57, 235, 175);
+    color: #0E0E0E;
+   
+    font-weight: 600;
+}
